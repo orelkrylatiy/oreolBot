@@ -1,4 +1,4 @@
-package com.mybot.jslearning;
+package mybot;
 
 public class TestService {
 }

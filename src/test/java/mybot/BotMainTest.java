@@ -1,4 +1,4 @@
-package com.mybot.jslearning;
+package mybot;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
