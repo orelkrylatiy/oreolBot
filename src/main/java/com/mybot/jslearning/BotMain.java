@@ -13,7 +13,6 @@ public class BotMain
         Scanner input = new Scanner(System.in); // начинаем процесс чтения с клавиатуры
         String userInput = input.nextLine();
 
-        BotCommands(userInput);
 
         System.out.println( "Hello World!" );
     }
