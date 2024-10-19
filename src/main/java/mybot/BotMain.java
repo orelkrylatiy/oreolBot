@@ -2,16 +2,27 @@ package mybot;
 import java.util.Scanner;
 
 
-/**
- * Hello world!
- *
- */
 public class BotMain
 {
     public static void main( String[] args )
     {
-        Scanner input = new Scanner(System.in); // начинаем процесс чтения с клавиатуры
-        String userInput = input.nextLine();
-        System.out.println( "Hello World!" );
+        Scanner input = new Scanner(System.in);
+        System.out.println("Добро пожаловать в учебного бота! Введите команду:");
+
+        BotCommands processCommand = new BotCommands();
+
+        while (true){
+
+            String userInput = input.nextLine();
+            String response = processCommand.handleCommand(userInput);
+            System.out.println(response);
+            if (userInput.equalsIgnoreCase("/exit")) {
+                break;  // Завершение программы при команде /exit
+            }
+
+        }
+
+        input.close();
     }
+
 }
