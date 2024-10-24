@@ -1,0 +1,46 @@
+{
+  "theory": [
+    {
+      "command": "/introduction_to_javascript",
+      "title": "Введение в JavaScript",
+      "sections": [
+        {
+          "number": 1,
+          "title": "Что такое JavaScript?",
+          "content": "JavaScript — это язык программирования..."
+        },
+        {
+          "number": 2,
+          "title": "История JavaScript",
+          "content": "JavaScript был создан в 1995 году..."
+        },
+        {
+          "number": 3,
+          "title": "Зачем нужен JavaScript?",
+          "content": "JavaScript используется для создания интерактивных веб-сайтов..."
+        }
+      ]
+    },
+    {
+      "command": "/basic_syntax",
+      "title": "Основы синтаксиса",
+      "sections": [
+        {
+          "number": 1,
+          "title": "Структура кода",
+          "content": "В JavaScript код выполняется по инструкциям."
+        },
+        {
+          "number": 2,
+          "title": "Переменные",
+          "content": "Переменные используются для хранения данных в JavaScript..."
+        },
+        {
+          "number": 3,
+          "title": "Условные операторы",
+          "content": "Условные операторы используются для выполнения действий в зависимости от условия."
+        }
+      ]
+    }
+  ]
+}
